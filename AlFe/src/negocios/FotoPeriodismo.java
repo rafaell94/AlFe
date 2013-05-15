@@ -32,6 +32,46 @@ longitud*/
         coordenadas[0] = latitud;
         coordenadas[1] = longitud;
     }
+
+    public String getTipoEvento() {
+        return tipoEvento;
+    }
+
+    public void setTipoEvento(String tipoEvento) {
+        this.tipoEvento = tipoEvento;
+    }
+
+    public String getHoraEvento() {
+        return horaEvento;
+    }
+
+    public void setHoraEvento(String horaEvento) {
+        this.horaEvento = horaEvento;
+    }
+
+    public String getAmbito() {
+        return ambito;
+    }
+
+    public void setAmbito(String ambito) {
+        this.ambito = ambito;
+    }
+
+    public int getLatitud() {
+        return coordenadas[0];
+    }
+
+    public void setLatitud(int _latitud) {
+        this.coordenadas[0] = _latitud;
+    }
+    
+    public int getLongitud() {
+        return coordenadas[1];
+    }
+
+    public void setLongitud(int _longitud) {
+        this.coordenadas[1] = _longitud;
+    }
     
     
     
