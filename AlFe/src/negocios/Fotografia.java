@@ -21,7 +21,7 @@ tamaño del archivo* en kbytes.*/
     private String nombreFoto;
     private String fechaCreacion;//fecha de creacion del archivo
     private int[] dimensiones = new int[2]; 
-    private String tipoArchivo;
+    private String tipoArchivo;//lo hace el programa
     private String paisOrigen;
     private String descripcion;
     private int tamanoArchivo; //kbytes

@@ -4,6 +4,8 @@
  */
 package alfe;
 
+import interfaz.FrmPrincipal;
+
 /**
  *
  * @author rafa
@@ -14,6 +16,7 @@ public class AlFe {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        FrmPrincipal neuv = new FrmPrincipal();
+        neuv.show();
     }
 }
